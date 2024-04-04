@@ -34,7 +34,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
         @endphp
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('crp_dashboard') }}">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/') }}">
             <div class="sidebar-brand-text mx-3 ttn">
                 <div class="right">
                     {{ env('APP_NAME') }}

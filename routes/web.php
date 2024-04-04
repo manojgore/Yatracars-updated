@@ -146,7 +146,7 @@ Route::get('customer/wishlist/add/{id}', [ListingControllerForFront::class,'wish
 
 
 /* --------------------------------------- */
-/* Customer Authemtication */
+/* Customer Authentication */
 /* --------------------------------------- */
 Route::get('customer/login', [CustomerAuthController::class,'login'])
     ->name('customer_login');
