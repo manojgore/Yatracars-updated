@@ -1,6 +1,10 @@
 {
     "ADMIN_PANEL": "Admin Panel",
     "CORPORATE_PANEL": "Corporate Panel",
+    "BOOKING" : "Bookings",
+    "ADD_BOOKING" : "Add Bookings",
+    "EDIT_BOOKING" : "Edit Bookings",
+    "DEL_BOOKING" : "Delete Bookings",
     "SETTINGS": "Settings",
     "LANGUAGE_SETTINGS": "Language Settings",
     "GENERAL_SETTING": "General Settings",

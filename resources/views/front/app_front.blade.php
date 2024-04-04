@@ -316,7 +316,7 @@ session()->put('currency_value',$value1);
                     <div class="col-lg-6 col-md-7 col-sm-12">
                         @if($g_setting->customer_listing_option == 'On')
                         <ul class="top-right">
-                            <li>
+                            {{-- <li>
                                 <form action="{{ route('front_currency') }}" method="post">
                                     @csrf
                                     <select name="currency_name" class="nav-link" onchange="this.form.submit()">
@@ -325,9 +325,9 @@ session()->put('currency_value',$value1);
                                         @endforeach
                                     </select>
                                 </form>
-                            </li>
+                            </li> --}}
                             <li class="currency">
-                                <a href="{{ route('customer_listing_add') }}" class="nav-link"><i class="fas fa-plus"></i> {{ CORPORATE_LOGIN }}</a>
+                                <a href="{{ route('crp_dashboard') }}" class="nav-link"><i class="fas fa-plus"></i> {{ CORPORATE_LOGIN }}</a>
                             </li> 
                             <li>
                                 @if(Auth::user())
@@ -336,9 +336,9 @@ session()->put('currency_value',$value1);
                                 <a href="{{ route('customer_login') }}" class="nav-link"><i class="fas fa-sign-in-alt"></i> {{ MENU_LOGIN_REGISTER }}</a>
                                 @endif
                             </li>
-                            <li class="currency">
+                            {{-- <li class="currency">
                                 <a href="{{ route('customer_listing_add') }}" class="nav-link"><i class="fas fa-plus"></i> {{ MENU_ADD_LISTING }}</a>
-                            </li>                            
+                            </li>                             --}}
                         </ul>
                         @endif
                     </div>

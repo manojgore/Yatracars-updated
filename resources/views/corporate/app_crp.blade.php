@@ -61,7 +61,21 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
             </a>
         </li>
 
-
+        <!-- Bookings -->
+        <li class="nav-item {{ $route == 'admin_setting_general'||$route =='admin_payment'||$route =='admin_social_media_view'||$route =='admin_social_media_create'||$route =='admin_social_media_store'||$route =='admin_social_media_edit' ? 'active' : '' }}">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSetting" aria-expanded="true" aria-controls="collapseSetting">
+                <i class="fas fa-folder"></i>
+                <span>{{ BOOKING }}</span>
+            </a>
+            <div id="collapseSetting" class="collapse {{ $route == 'corporate_employee_view'||$route == 'corporate_employee_view'||$route =='corporate_employee_view'||$route =='corporate_employee_view'||$route =='corporate_employee_view'||$route == 'corporate_employee_view'||$route == 'corporate_employee_view'||$route == 'corporate_employee_view' ? 'show' : '' }}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <a class="collapse-item" href="{{ route('corporate_employee_view') }}">{{ ADD_BOOKING }}</a>
+                    <a class="collapse-item" href="{{ route('corporate_employee_view') }}">{{ EDIT_BOOKING }}</a>
+                    <a class="collapse-item" href="{{ route('corporate_employee_view') }}">{{ DEL_BOOKING }}</a>
+                </div>
+            </div>
+        </li>
+        
         <!-- Divider -->
         <hr class="sidebar-divider">
 
