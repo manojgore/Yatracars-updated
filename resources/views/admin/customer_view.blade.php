@@ -26,7 +26,7 @@
                                 @else
                                     <img src="{{ asset('uploads/user_photos/'.$row->photo) }}" class="w_100">
                                 @endif
-                            </td>
+                            </td> 
                             <td>{{ $row->name }}</td>
                             <td>{{ $row->email }}</td>
                             <td>
