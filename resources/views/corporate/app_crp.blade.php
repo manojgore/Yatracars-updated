@@ -59,7 +59,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
                 <i class="far fa-caret-square-right"></i>
                 <span>{{ EMPLOYEE }}</span>
             </a>
-        </li>
+        </li> 
 
         <!-- Bookings -->
         <li class="nav-item {{ $route == 'admin_setting_general'||$route =='admin_payment'||$route =='admin_social_media_view'||$route =='admin_social_media_create'||$route =='admin_social_media_store'||$route =='admin_social_media_edit' ? 'active' : '' }}">
