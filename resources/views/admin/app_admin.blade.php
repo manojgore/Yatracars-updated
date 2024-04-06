@@ -40,7 +40,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
                     {{ env('APP_NAME') }}
                 </div>
             </div>
-        </a>
+        </a>  
 
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
