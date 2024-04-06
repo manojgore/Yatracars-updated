@@ -27,4 +27,4 @@ class Crp extends Authenticatable
         'token',
         'status'
     ];
-}
+} 
