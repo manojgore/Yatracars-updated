@@ -618,7 +618,7 @@ if (! function_exists('report')) {
      * Report an exception.
      *
      * @param  \Throwable|string  $exception
-     * @return void
+     * @return void 
      */
     function report($exception)
     {
