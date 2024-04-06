@@ -326,7 +326,7 @@ session()->put('currency_value',$value1);
                                     </select>
                                 </form>
                             </li> --}}
-                            <li>
+                            <li> 
                                 @if(Auth::user())
                                 <a href="{{ route('admin_dashboard') }}" class="nav-link"><i class="fas fa-sign-in-alt"></i> {{ ADMIN_PANEL }}</a>
                                 @else
