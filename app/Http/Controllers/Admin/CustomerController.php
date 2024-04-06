@@ -51,7 +51,7 @@ class CustomerController extends Controller
 
         User::where('id', $id)->delete();
         return Redirect()->back()->with('success', SUCCESS_ACTION);
-    }
+    } 
 
     public function change_status($id) {
         $customer = User::find($id);
