@@ -3,7 +3,7 @@ namespace App\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 
-class Crp extends Authenticatable
+class Crp extends Authenticatable 
 {
     protected $fillable = [
         'name',
