@@ -336,7 +336,7 @@ Route::get('admin/dashboard', [DashboardControllerForAdmin::class,'index'])
 Route::get('admin', function () {return redirect('admin/login');});
 
 Route::get('admin/login', [LoginControllerForAdmin::class,'login'])
-    ->name('admin_login');
+    ->name('admin_login'); 
 
 Route::post('admin/login/store', [LoginControllerForAdmin::class,'login_check'])
     ->name('admin_login_store');
