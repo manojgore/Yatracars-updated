@@ -112,7 +112,7 @@
     "PENDING": "Pending",
     "CHANGE_FEATURED_PHOTO": "Change Featured Photo",
     "ADMIN_LOGIN": "Admin Login",
-    "PRICE": "Price",
+    "PRICE": "Price", 
     "TYPE": "Type",
     "ADD_PACKAGE": "Add Package",
     "SELECT_PACKAGE_TYPE": "Select Package Type",
