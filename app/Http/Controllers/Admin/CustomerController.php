@@ -61,7 +61,7 @@ class CustomerController extends Controller
             } else {
                 $customer->status = 'Pending';
                 $message=SUCCESS_ACTION;
-                $customer->save();
+                $customer->save(); 
             }
         } else {
             if(env('PROJECT_MODE') == 0) {
