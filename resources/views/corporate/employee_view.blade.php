@@ -46,7 +46,7 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div> 
 
     <script>
         function customerStatus(id){
