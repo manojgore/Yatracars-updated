@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Crp extends Authenticatable 
 {
-    protected $fillable = [
+    protected $fillable = [ 
         'name',
         'email',
         'phone',
