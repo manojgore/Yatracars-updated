@@ -70,7 +70,7 @@ class EmployeeControllerCrp extends Controller
                 $customer->status = 'Active';
                 $message=SUCCESS_ACTION;
                 $customer->save();
-            }
+            } 
         }
         return response()->json($message); 
     } 
