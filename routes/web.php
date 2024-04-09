@@ -331,7 +331,7 @@ Route::get('corporate/employee/view', [EmployeeControllerForCrp::class,'emp'])
 /* Login and profile management */
 /* --------------------------------------- */
 Route::get('admin/dashboard', [DashboardControllerForAdmin::class,'index'])
-    ->name('admin_dashboard');
+    ->name('admin_dashboard'); 
 
 Route::get('admin', function () {return redirect('admin/login');});
 
