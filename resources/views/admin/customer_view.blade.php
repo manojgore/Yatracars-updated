@@ -28,7 +28,7 @@
                                 @endif
                             </td> 
                             <td>{{ $row->name }}</td>
-                            <td>{{ $row->email }}</td>
+                            <td>{{ $row->email }}</td> 
                             <td>
                                 @if ($row->status == 'Active')
                                 <a href="" onclick="customerStatus({{ $row->id }})"><input type="checkbox" checked data-toggle="toggle" data-on="Active" data-off="Pending" data-onstyle="success" data-offstyle="danger"></a>
