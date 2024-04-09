@@ -90,7 +90,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
         <li class="nav-item {{ $route == 'admin_page_home_edit'||$route == 'admin_page_about_edit'||$route == 'admin_page_blog_edit'||$route == 'admin_page_faq_edit'||$route == 'admin_page_contact_edit'||$route == 'admin_page_term_edit'||$route == 'admin_page_privacy_edit'||$route == 'admin_page_other_edit'||$route == 'admin_page_pricing_edit'||$route == 'admin_page_listing_brand_edit'||$route == 'admin_page_listing_location_edit'||$route == 'admin_page_listing_edit' ? 'active' : '' }}">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePageSettings" aria-expanded="true" aria-controls="collapsePageSettings">
                 <i class="fas fa-folder"></i>
-                <span>{{ PAGE_SETTINGS }}</span>
+                <span>{{ PAGE_SETTINGS }}</span> 
             </a>
             <div id="collapsePageSettings" class="collapse {{ $route == 'admin_page_home_edit'||$route == 'admin_page_about_edit'||$route == 'admin_page_blog_edit'||$route == 'admin_page_faq_edit'||$route == 'admin_page_contact_edit'||$route == 'admin_page_term_edit'||$route == 'admin_page_privacy_edit'||$route == 'admin_page_other_edit'||$route == 'admin_page_pricing_edit'||$route == 'admin_page_listing_brand_edit'||$route == 'admin_page_listing_location_edit'||$route == 'admin_page_listing_edit' ? 'show' : '' }}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
