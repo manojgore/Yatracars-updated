@@ -360,7 +360,7 @@ session()->put('currency_value',$value1);
 		@include('front.app_footer')
 
       	<div class="scroll-top">
-		  	<i class="fas fa-long-arrow-alt-up"></i>
+		  	<i class="fas fa-long-arrow-alt-up"></i> 
 	    </div>
 
 	    @include('front.app_scripts_footer')
