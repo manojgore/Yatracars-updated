@@ -18,7 +18,7 @@ class DashboardControllerCrp extends Controller
         $total_active_customers = User::where('status', 'Active')->count();
         $total_pending_customers = User::where('status', 'Pending')->count();
         $total_active_listings = Listing::where('listing_status', 'Active')->count();
-        $total_pending_listings = Listing::where('listing_status', 'Pending')->count();
+        $total_pending_listings = Listing::where('listing_status', 'Pending')->count(); 
         
         return view('corporate.app_crp', compact('total_active_customers','total_pending_customers','total_active_listings','total_pending_listings'));
     }
