@@ -620,7 +620,7 @@ if (! function_exists('report')) {
      * @param  \Throwable|string  $exception
      * @return void 
      */
-    function report($exception) 
+    function report($exception)  
     {
         if (is_string($exception)) { 
             $exception = new Exception($exception);
