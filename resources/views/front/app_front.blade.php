@@ -365,5 +365,5 @@ session()->put('currency_value',$value1);
 
 	    @include('front.app_scripts_footer')
 
-   </body>
+   </body> 
 </html>
