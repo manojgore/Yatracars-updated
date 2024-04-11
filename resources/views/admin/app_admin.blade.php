@@ -115,7 +115,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
         <li class="nav-item {{ $route == 'admin_category_view'||$route == 'admin_category_create'||$route == 'admin_category_edit'||$route =='admin_blog_view'||$route =='admin_blog_create'||$route =='admin_blog_edit'||$route =='admin_comment_approved'||$route =='admin_comment_pending' ? 'active' : '' }}">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBlog" aria-expanded="true" aria-controls="collapseBlog">
                 <i class="fas fa-folder"></i>
-                <span>{{ BLOG_SECTION }}</span>
+                <span>{{ BLOG_SECTION }}</span> 
             </a>
             <div id="collapseBlog" class="collapse {{ $route == 'admin_category_view'||$route == 'admin_category_create'||$route == 'admin_category_edit'||$route =='admin_blog_view'||$route =='admin_blog_create'||$route =='admin_blog_edit'||$route =='admin_comment_approved'||$route =='admin_comment_pending' ? 'show' : '' }}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
