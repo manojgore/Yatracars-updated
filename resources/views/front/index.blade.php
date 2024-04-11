@@ -176,7 +176,7 @@
 
 
 @if($page_home_items->listing_status == 'Show')
-<div class="listing">
+<div class="listing"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
