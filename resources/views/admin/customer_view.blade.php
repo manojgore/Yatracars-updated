@@ -60,6 +60,6 @@
                     console.log(err);
                 }
             })
-        }
+        } 
     </script>
 @endsection
