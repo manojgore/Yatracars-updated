@@ -17,7 +17,7 @@ $page_listing_brand_item = \App\Models\PageListingBrandItem::where('id',1)->firs
 	<!-- Menu For Mobile Device -->
 	<div class="mobile-nav">
 		<a href="{{ url('/') }}" class="logo">
-			<img src="{{ asset('uploads/site_photos/'.$g_settings->logo) }}" alt="">
+			<img src="{{ asset('uploads/site_photos/'.$g_settings->logo) }}" alt=""> 
 		</a>
 	</div>
 
