@@ -11,7 +11,7 @@
                         <th>{{ SERIAL }}</th>
                         <th>{{ PHOTO }}</th>
                         <th>{{ NAME }}</th>
-                        <th>{{ EMAIL }}</th>
+                        <th>{{ EMAIL }}</th> 
                         <th>{{ STATUS }}</th>
                         <th>{{ ACTION }}</th>
                     </tr>
