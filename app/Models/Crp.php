@@ -18,7 +18,7 @@ class Crp extends Authenticatable
         'facebook',
         'twitter',
         'linkedin',
-        'instagram',
+        'instagram', 
         'pinterest',
         'youtube',
         'photo',
