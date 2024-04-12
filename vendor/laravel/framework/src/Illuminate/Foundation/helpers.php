@@ -543,7 +543,7 @@ if (! function_exists('now')) {
      * Create a new Carbon instance for the current time.
      *
      * @param  \DateTimeZone|string|null  $tz
-     * @return \Illuminate\Support\Carbon
+     * @return \Illuminate\Support\Carbon 
      */
     function now($tz = null)
     {
