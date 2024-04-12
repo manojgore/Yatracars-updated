@@ -651,7 +651,7 @@ Route::get('admin/setting/general', [SettingController::class,'edit'])
     ->name('admin_setting_general');
 
 Route::post('admin/setting/general/update', [SettingController::class,'update'])
-    ->name('admin_setting_general_update');
+    ->name('admin_setting_general_update'); 
 
 
 /* --------------------------------------- */
