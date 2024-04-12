@@ -69,7 +69,7 @@ class CustomerController extends Controller
             } else {
                 $customer->status = 'Active';
                 $message=SUCCESS_ACTION;
-                $customer->save();
+                $customer->save(); 
             }
         } 
         return response()->json($message);
