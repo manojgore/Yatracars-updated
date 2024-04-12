@@ -67,7 +67,7 @@ class EmployeeControllerCrp extends Controller
             if(env('PROJECT_MODE') == 0) {
                 $message=env('PROJECT_NOTIFICATION');
             } else {
-                $customer->status = 'Active';
+                $customer->status = 'Active'; 
                 $message=SUCCESS_ACTION;
                 $customer->save();
             } 
