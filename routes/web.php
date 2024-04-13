@@ -603,7 +603,7 @@ Route::get('admin/listing/delete/{id}', [ListingControllerForAdmin::class,'destr
     ->name('admin_listing_delete');
 
 Route::get('admin/listing/edit/{id}', [ListingControllerForAdmin::class,'edit'])
-    ->name('admin_listing_edit');
+    ->name('admin_listing_edit'); 
 
 Route::post('admin/listing/update/{id}', [ListingControllerForAdmin::class,'update'])
     ->name('admin_listing_update');
