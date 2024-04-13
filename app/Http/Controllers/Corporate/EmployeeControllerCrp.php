@@ -27,7 +27,7 @@ class EmployeeControllerCrp extends Controller
         return view('admin.customer_detail', compact('customer_detail'));
     }
 
-    public function destroy($id) {
+    public function destroy($id) { 
 
         if(env('PROJECT_MODE') == 0) {
             return redirect()->back()->with('error', env('PROJECT_NOTIFICATION'));
