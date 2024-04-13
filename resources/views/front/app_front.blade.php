@@ -313,7 +313,7 @@ session()->put('currency_value',$value1);
                             @endif
                         </ul>
                     </div>
-                    <div class="col-lg-6 col-md-7 col-sm-12">
+                    <div class="col-lg-6 col-md-7 col-sm-12"> 
                         @if($g_setting->customer_listing_option == 'On')
                         <ul class="top-right">
                             {{-- <li>
