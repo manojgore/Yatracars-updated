@@ -25,6 +25,6 @@ class Crp extends Authenticatable
         'banner',
         'password',
         'token',
-        'status'
+        'status' 
     ];
 } 
