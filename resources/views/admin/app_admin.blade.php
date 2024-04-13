@@ -209,7 +209,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
         <li class="nav-item {{ $route == 'admin_customer_view' ? 'active' : '' }}">
             <a class="nav-link" href="{{ route('admin_customer_view') }}">
                 <i class="far fa-caret-square-right"></i>
-                <span>{{ CUSTOMER }}</span>
+                <span>{{ CUSTOMER }}</span> 
             </a>
         </li>
 
