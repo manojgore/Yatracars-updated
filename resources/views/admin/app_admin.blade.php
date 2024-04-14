@@ -14,7 +14,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
     <title>{{ ADMIN_PANEL }}</title>
 
     @include('admin.app_styles')
-
+                                    
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     @include('admin.app_scripts')
