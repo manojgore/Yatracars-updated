@@ -30,7 +30,7 @@ class EmployeeControllerCrp extends Controller
     public function destroy($id) { 
 
         if(env('PROJECT_MODE') == 0) {
-            return redirect()->back()->with('error', env('PROJECT_NOTIFICATION'));
+            return redirect()->back()->with('error', env('PROJECT_NOTIFICATION')); 
         }
 
         // Before deleting, check this customer is used in another table
