@@ -454,7 +454,7 @@ Route::get('admin/blog/edit/{id}', [BlogControllerForAdmin::class,'edit'])
 
 Route::post('admin/blog/update/{id}', [BlogControllerForAdmin::class,'update'])
     ->name('admin_blog_update');
-
+ 
 
 /* --------------------------------------- */
 /* Blog Comment */
