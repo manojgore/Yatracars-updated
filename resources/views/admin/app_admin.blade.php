@@ -138,7 +138,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
             <div id="collapseWebsite" class="collapse {{ $route == 'admin_faq_view'||$route == 'admin_faq_create'||$route == 'admin_faq_edit'||$route == 'admin_testimonial_view'||$route == 'admin_testimonial_create'||$route == 'admin_testimonial_edit' ? 'show' : '' }}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <a class="collapse-item" href="{{ route('admin_faq_view') }}">{{ FAQ }}</a>
-                    <a class="collapse-item" href="{{ route('admin_testimonial_view') }}">{{ TESTIMONIAL }}</a>
+                    <a class="collapse-item" href="{{ route('admin_testimonial_view') }}">{{ TESTIMONIAL }}</a> 
                 </div>
             </div>
         </li>
