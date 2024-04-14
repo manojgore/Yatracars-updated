@@ -16,7 +16,7 @@ class Crp extends Authenticatable
         'zip',
         'website',
         'facebook',
-        'twitter',
+        'twitter', 
         'linkedin',
         'instagram', 
         'pinterest',
