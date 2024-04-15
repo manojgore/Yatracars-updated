@@ -315,7 +315,7 @@ session()->put('currency_value',$value1);
                     </div>
                     <div class="col-lg-6 col-md-7 col-sm-12"> 
                         @if($g_setting->customer_listing_option == 'On') 
-                        <ul class="top-right">
+                        <ul class="top-right"> 
                             {{-- <li>
                                 <form action="{{ route('front_currency') }}" method="post">
                                     @csrf
