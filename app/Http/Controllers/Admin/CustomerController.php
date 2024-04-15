@@ -72,6 +72,6 @@ class CustomerController extends Controller
                 $customer->save();  
             }
         } 
-        return response()->json($message);
+        return response()->json($message); 
     }
 }
