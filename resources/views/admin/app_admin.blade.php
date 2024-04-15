@@ -24,7 +24,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
 <body id="page-top">
 
 <!-- Page Wrapper -->
-<div id="wrapper">
+<div id="wrapper"> 
 
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
