@@ -56,7 +56,7 @@
                 success:function(response){
                    toastr.success(response)
                 },
-                error:function(err){
+                error:function(err){ 
                     console.log(err);
                 }
             }) 
