@@ -49,7 +49,7 @@ $g_setting = \App\Models\GeneralSetting::where('id',1)->first();
         <li class="nav-item {{ $route == 'crp_dashboard' ? 'active' : '' }}">
             <a class="nav-link" href="{{ route('crp_dashboard') }}">
                 <i class="fas fa-fw fa-home"></i>
-                <span>{{ DASHBOARD }}</span>
+                <span>{{ DASHBOARD }}</span> 
             </a>
         </li>
 
