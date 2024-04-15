@@ -82,7 +82,7 @@ $page_listing_brand_item = \App\Models\PageListingBrandItem::where('id',1)->firs
                         @endif
 
 						@if($page_blog_item->status == 'Show')
-						<li class="nav-item">
+						<li class="nav-item"> 
 							<a href="{{ route('front_blogs') }}" class="nav-link">{{ MENU_BLOG }}</a>
 						</li>
 						@endif
