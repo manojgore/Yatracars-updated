@@ -244,7 +244,7 @@
 						<h3><a href="{{ route('front_listing_detail',$row->listing_slug) }}">{{ $row->listing_name }}</a></h3>
 						<div class="location">
 							<i class="fas fa-map-marker-alt"></i> {{ $row->rListingLocation->listing_location_name }}
-						</div>
+						</div> 
 
 						@php
 							$count=0;
